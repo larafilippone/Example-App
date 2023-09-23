@@ -70,7 +70,7 @@ ui <- fluidPage(
                            p("This is the course shiny app.", br(),
                              "It is created during the course exercises using the europe.rds data:", br(),
                              strong("Average daily temperatures"), "(in Fahrenheit) from cities around
-                                           Europe from 2000 to 2019"),
+                                           Europe from 2000 to 2019."),
                            hr(),
                            verbatimTextOutput("data_summary")
                   ),
